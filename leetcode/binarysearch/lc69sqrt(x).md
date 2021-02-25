@@ -2,7 +2,6 @@
 class Solution {
     public int mySqrt(int x) {
         if (x < 2) return x;
-        
         long num;
         int pivot = 2;
         int left  = 2;
